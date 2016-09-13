@@ -26,4 +26,5 @@ The DMX-Card is a small breakout board that allows developers to quickly add a U
 * Mounting: 4x 0.125" holes, located at edges of board
 
 **circuit is constructed to ANSI E1.20; RDM must be correctly implemented on controller for full compliance*
+
 ***some specifications subject to change and final testing*
