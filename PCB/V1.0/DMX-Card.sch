@@ -16338,7 +16338,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="D1" library="diode" deviceset="TVS-DIODE" device="SOD323-NOSILK" value="9V"/>
 <part name="C1" library="rcl" deviceset="CPOL-US" device="E2.5-5-NOSILK" value="10u"/>
 <part name="C5" library="rcl" deviceset="C-US" device="C0603K" value="10u"/>
-<part name="X2" library="con-neutrik_ag" deviceset="CUSTOM" device="NC3FAH-NC3MAH-NOSILK" value="(NC3/NC5)FAH"/>
+<part name="X1/2" library="con-neutrik_ag" deviceset="CUSTOM" device="NC3FAH-NC3MAH-NOSILK" value="(NC3/NC5)FAH"/>
 <part name="D4" library="diode" deviceset="TVS-DIODE" device="SOD323-NOSILK" value="9V"/>
 <part name="D5" library="diode" deviceset="TVS-DIODE" device="SOD323-NOSILK" value="9V"/>
 <part name="J1" library="SparkFun-Connectors" deviceset="M05" device="NO_SILK"/>
@@ -16468,7 +16468,7 @@ FOR FIXED INPUT CONNECT SELECT TO GND.</text>
 </instance>
 <instance part="C1" gate="G$1" x="81.28" y="170.18" rot="MR0"/>
 <instance part="C5" gate="G$1" x="139.7" y="170.18"/>
-<instance part="X2" gate="G$1" x="215.9" y="76.2"/>
+<instance part="X1/2" gate="G$1" x="215.9" y="76.2"/>
 <instance part="D4" gate="G$1" x="93.98" y="114.3" smashed="yes" rot="MR90">
 <attribute name="NAME" x="91.186" y="112.141" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="91.186" y="114.427" size="1.778" layer="96" rot="MR0"/>
@@ -16614,9 +16614,9 @@ FOR FIXED INPUT CONNECT SELECT TO GND.</text>
 <pinref part="D6" gate="G$1" pin="1"/>
 <wire x1="215.9" y1="114.3" x2="215.9" y2="119.38" width="0.1524" layer="91"/>
 <junction x="215.9" y="119.38"/>
-<pinref part="X2" gate="G$1" pin="NC5-2"/>
+<pinref part="X1/2" gate="G$1" pin="NC5-2"/>
 <wire x1="198.12" y1="81.28" x2="203.2" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="X2" gate="G$1" pin="NC3-2"/>
+<pinref part="X1/2" gate="G$1" pin="NC3-2"/>
 <wire x1="228.6" y1="81.28" x2="233.68" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="81.28" x2="233.68" y2="119.38" width="0.1524" layer="91"/>
 <junction x="233.68" y="119.38"/>
@@ -16738,9 +16738,9 @@ FOR FIXED INPUT CONNECT SELECT TO GND.</text>
 <wire x1="236.22" y1="121.92" x2="231.14" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="121.92" x2="203.2" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="121.92" x2="203.2" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="X2" gate="G$1" pin="NC5-1"/>
+<pinref part="X1/2" gate="G$1" pin="NC5-1"/>
 <wire x1="203.2" y1="83.82" x2="200.66" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="X2" gate="G$1" pin="NC3-1"/>
+<pinref part="X1/2" gate="G$1" pin="NC3-1"/>
 <wire x1="228.6" y1="83.82" x2="231.14" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="83.82" x2="231.14" y2="121.92" width="0.1524" layer="91"/>
 <junction x="231.14" y="121.92"/>
@@ -16868,7 +16868,7 @@ FOR FIXED INPUT CONNECT SELECT TO GND.</text>
 <wire x1="210.82" y1="116.84" x2="236.22" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="114.3" x2="210.82" y2="116.84" width="0.1524" layer="91"/>
 <junction x="210.82" y="116.84"/>
-<pinref part="X2" gate="G$1" pin="NC3/5-3"/>
+<pinref part="X1/2" gate="G$1" pin="NC3/5-3"/>
 <wire x1="195.58" y1="58.42" x2="195.58" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="78.74" x2="203.2" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="58.42" x2="236.22" y2="58.42" width="0.1524" layer="91"/>
