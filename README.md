@@ -7,6 +7,7 @@ The DMX-Card is a small breakout board that allows developers to quickly add a U
 
 ## Updates
 **9/24/2016:** Board version 1.1; see directory for changes
+
 **9/22/2016:** Board version 1.0 proven
 
 ## Features
