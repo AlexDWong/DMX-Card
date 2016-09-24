@@ -6,6 +6,7 @@
 The DMX-Card is a small breakout board that allows developers to quickly add a UART-to-DMX (RS-485) circuit to their designs. It has been designed to cut down on the time spent constructing isolated DMX-512 circuits for prototype designs. The circuit is fully isolated and protected against ESD, and can be easily configured with a 3-pin XLR, 5-pin XLR, or 0.100" connector of the user's choice.
 
 ## Updates
+**9/24/2016:** Board version 1.1; see directory for changes
 **9/22/2016:** Board version 1.0 proven
 
 ## Features
